@@ -19,8 +19,8 @@ DELETE
 curl -X DELETE http://localhost:5000/users/<user_id>
 
 CREATE
-curl -X POST --header "Content-Type: application/json" -d "{\"Name\":\"Shankesh\",\"Email\":\"sabhashanki@gmail.com\",\"ID\":
-95,\"Password\":\"sabhashanki\"}" http://localhost:5000/users
+curl -X POST --header "Content-Type: application/json" -d "{\"Name\":\"Shankesh\",\"Email\":\"abcd@gmail.com\",\"ID\":
+95,\"Password\":\"efgrthyg\"}" http://localhost:5000/users
 
 UPDATE
-curl -X PUT --header "Content-Type: application/json" -d "{\"Name\":\"Preethi\",\"Email\":\"spreethi@gmail.com\",\"ID\":10,\"Password\":\"sabhashanki\"}" http://localhost:5000/users/10
+curl -X PUT --header "Content-Type: application/json" -d "{\"Name\":\"Preethi\",\"Email\":\"spreethi@gmail.com\",\"ID\":10,\"Password\":\"preetdfefi\"}" http://localhost:5000/users/10
