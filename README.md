@@ -21,7 +21,7 @@ The application should provide the following REST API endpoints:
 
 Load Docker tar.gz file
 
-`docker load < busybox.tar.gz`
+`docker load < flask_app.tar.gz`
 
 `sudo docker run -d -p 5000:5000 flask_mongo:4.0`
 
